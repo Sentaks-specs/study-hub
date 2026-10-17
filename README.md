@@ -1,23 +1,30 @@
-# Sen's Study Hub: make it an app
+# Sen's Study Hub
 
-Files in this folder (keep them together):
-- index.html: the whole study hub (all subjects are inside it)
-- manifest.json: tells the phone this is an installable app (name, icon, colors, no browser bars)
-- sw.js: lets it open offline after the first visit
-- icon-*.png and apple-touch-icon.png: the app icons
+My own study app, built for studying on my phone.
 
-## 1. Put it online (free, GitHub Pages)
-1. Sign in at github.com and click New repository. Name it study-hub and make it Public.
-2. Click "uploading an existing file" and drag in ALL files from this folder (not the folder itself). Commit.
-3. Go to Settings, then Pages. Under "Build and deployment", set Source to "Deploy from a branch", Branch "main", folder "/ (root)", then Save.
-4. Wait 1 to 2 minutes. Your link will be https://YOUR-USERNAME.github.io/study-hub/
+## Why I made this
 
-## 2. Install it on your phone
-- Android (Chrome): open your link, tap the three dots, then "Install app" (or "Add to Home screen"). It opens full screen with no address bar.
-- iPhone (Safari): open your link, tap Share, then "Add to Home Screen".
+I'm a first-year IT student, and I don't have a library or books nearby. Most of my studying happens on my phone in my free time. My notes were scattered across slides, PDFs, and screenshots, and I kept losing track of what I had already read.
 
-## 3. Updating later
-Replace index.html on GitHub, and change CACHE in sw.js from "studyhub-v1" to "studyhub-v2" so phones pick up the new version.
+So I put everything in one place: organized, easy to read, and with quizzes to check myself. That way I can open it anywhere and keep going from where I left off.
 
-## Optional: a real APK
-Go to pwabuilder.com, paste your GitHub Pages link, and choose Android to get an APK you can install.
+## What's inside
+
+- **Discrete Math:** sets, relations and functions, with symbol sheets and keyword pages
+- **Intro to Computing (CC 111):** computers, hardware, CPU scheduling, operating systems, email, HTML
+- **C Programming:** a reference wiki for Programming 1
+- **Programming 2:** object-oriented programming, which I'm studying ahead
+- **Entrepreneurship:** mindset, business models, supply chain, SWOT and PESTLE
+
+## Features
+
+- Remembers where I stopped and shows progress for each subject
+- Quizzes after every lesson
+- Adjustable text size and light or dark mode
+- Works offline once it's been opened, and installs like a normal app
+
+## A note
+
+This is study material based on my class slides and lectures. Some wording is simplified, so for exams I double-check against my teacher's version.
+
+I keep adding subjects as the semester goes on.
