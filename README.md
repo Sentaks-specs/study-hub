@@ -28,3 +28,7 @@ So I put everything in one place: organized, easy to read, and with quizzes to c
 This is study material based on my class slides and lectures. Some wording is simplified, so for exams I double-check against my teacher's version.
 
 I keep adding subjects as the semester goes on.
+
+
+
+https://sentaks-specs.github.io/study-hub/
